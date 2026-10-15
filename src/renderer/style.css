@@ -1,0 +1,164 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f1ea;
+    color: #333;
+}
+
+/* Menu de Navegação */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* Seção Hero (Banner Principal) */
+.hero {
+    position: relative;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://unsplash.com') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero-content {
+    color: #fff;
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn-view {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* Seção "Art That Speaks" (Fundo Escuro) */
+.intro-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.intro-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.intro-section p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+/* Carrossel / Galeria de Imagens */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.art-card {
+    background-color: #e6e2da;
+    padding: 25px;
+    border: 1px solid #333;
+    width: 200px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #bbb;
+}
+
+/* Seção de Portfólio (Rodapé claro) */
+.portfolio-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.portfolio-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.portfolio-section .subtitle {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.links-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.link-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.link-item a {
+    font-size: 11px;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+    
