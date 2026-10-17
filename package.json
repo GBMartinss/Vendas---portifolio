@@ -2,15 +2,31 @@
   "name": "projetinho",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^44.7.2"
+    "electron": "^44.7.2",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.desenvolvedor.projetinho",
+    "productName": "Projetinho",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "src/assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
   }
 }
